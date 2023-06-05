@@ -1,0 +1,91 @@
+.col {
+    font-family: Verdana; /*define a fonte do texto*/
+}
+
+#menu {
+    position: fixed; /*fixa o menu na página*/
+    z-index: 10; /*joga o menu pra cima*/
+}
+
+#home {
+    height: 100vh; /*região que ocupa 100%*/
+    background-image: url(imagens/IMG_7669_3.jpg); /*imagem principal de fundo - página inicial*/
+    background-size: cover; /*cobre o fundo todo*/
+}
+
+#quemsoueu {
+    height: 100vh; /*região que ocupa 100%*/
+    background-color:#555152; /*cor de fundo*/
+}
+
+#meusvideos {
+    height: 100vh; /*região que ocupa 100%*/
+    background-color:#2e2633; /*cor de fundo*/
+}
+
+#minhasfotos {
+    height: 100vh; /*região que ocupa 100%*/
+    background-color: #722F37; /*cor de fundo*/
+}
+
+h1 {
+    color: white; /*cor do texto*/
+    background-color: black; /*cor de fundo do texto*/
+    position: absolute; /*cobre apenas a parte do texto*/
+    top: 60%; /*distância entre o texto e a margem superior da página inicial*/
+    font-size: 100px; /*tamanho da fonte*/
+    width: 100vh /*largura do texto*/
+}
+
+h2 {
+    color: white; /*cor do texto*/
+    text-align: left; /*alinha o texto à esquerda*/
+    top: 1000px; /*distância entre o texto e a margem superior da página inicial*/
+    font-size: 30px; /*tamanho da fonte*/
+    margin-top: 2%; /*margem superior*/
+    margin-left: 2%; /*margem à esquerda*/
+}
+
+#textoSobre , #segundaImagem  {
+    width: 45%; /*largura da área*/
+    height: 20vh; /*altura da área*/
+    float: left; /*o elemento "flutua" à esquerda dessa área*/
+    margin-left: 1%; /*margem à esquerda*/
+}
+
+#container { 
+    height: 100vh;
+    width: 100vh;
+    background-size: 100%;
+    /*deixar a segunda imagem dentro da área "Quem sou eu?"*/
+}
+
+#videos {
+    width: 25%; /*largura das áreas dos vídeos*/
+    height: 30vh; /*altura das áreas dos vídeos*/
+    background-color: #2e2633; /*cor de fundo das áreas dos vídeos*/
+    float: left; /*o elemento "flutua" à esquerda dessa área*/
+    border-top: 20px; /*borda superior*/
+}
+
+#margemSuperior {
+    width: 100%; /*largura da margem*/
+    height: 20vh; /*altura da margem*/
+    background-color: #2e2633; /*cor de fundo da margem*/
+    clear: both; /*impede que elementos flutuem de ambos os lados*/
+}
+
+#margemSuperior2 {
+    width: 100%; /*largura da margem*/
+    height: 20vh; /*altura da margem*/
+    background-color: #722F37; /*cor de fundo da margem*/
+    clear: both; /*impede que elementos flutuem de ambos os lados*/
+}
+
+#fotos {
+    width: 33%; /*largura das áreas dos vídeos*/
+    height: 30vh; /*altura das áreas dos vídeos*/
+    background-color: #722F37; /*cor de fundo das áreas dos vídeos*/
+    float: left; /*o elemento "flutua" à esquerda dessa área*/
+    border-top: 20px; /*borda superior*/
+}
